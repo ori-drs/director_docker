@@ -24,6 +24,11 @@ Attach a terminal to the container after running it :
 docker exec -it digiforest_docker bash
 ```
 
+Run director inside the docker container : 
+```
+roslaunch director_digiforest digiforest.launch
+```
+
 # Known issues
 
 - Inside docker, the buttons that are clicked are not highlighted, which gives the wrong impression that you cannot click on them. 
